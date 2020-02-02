@@ -1,0 +1,27 @@
+.other-info{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  .line{
+    width: 191.25px;
+    border: 1px solid #EFEFEF;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+  }
+  h6{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+  }
+}

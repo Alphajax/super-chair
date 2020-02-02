@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACH,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,sBAAuB",
+"sources": ["logo-and-search.scss"],
+"names": [],
+"file": "logo-and-search.css"
+}

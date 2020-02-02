@@ -1,0 +1,9 @@
+.other-info {
+  display: flex;
+  justify-content: center; }
+  .other-info .line {
+    height: 1px;
+    width: 100px;
+    border: 1px solid #EFEFEF; }
+
+/*# sourceMappingURL=other-info.css.map */

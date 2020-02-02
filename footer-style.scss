@@ -1,0 +1,27 @@
+@import "super-chair-variables";
+footer{
+  display: flex;
+  background: $chair-gray;
+  height: 50px;
+  .policy{
+    margin-left: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    margin-top: 15px;
+  }
+  .best-shop{
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #828282;
+    margin-top: 15px;
+  }
+}

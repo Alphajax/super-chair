@@ -1,0 +1,79 @@
+@import "super-chair-variables";
+@import "subscribe-and-our-shops-style";
+.special-offer{
+  background: $chair-gray;
+  .special-offer-header{
+    padding-top: 80px;
+    margin-left: 16%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .chairs-flex-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    .special-offer-element{
+      height: 363px;
+      width: 255px;
+      background: #fff;
+      padding-top: 25px;
+      margin-left: 15px;
+      margin-right: 15px;
+      .chair{
+        background: url("images/Rectangle 4.png");
+        height: 166px;
+        width: 125px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .chair-description{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #333333;
+        margin-top: 20px;
+      }
+      .price{
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-top: 20px;
+      }
+      .buy-button{
+        background-color: $chair-pink;
+        width: 51%;
+        height: 9.6%;
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        border-radius: 35px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        p{
+          padding-top: 9px;
+        }
+      }
+    }
+  }
+
+}

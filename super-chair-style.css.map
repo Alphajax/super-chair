@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;EACV,UAAU,EAAE,6BAA6B;EACzC,KAAK,EAAE,MAAM",
+"sources": ["super-chair-style.scss"],
+"names": [],
+"file": "super-chair-style.css"
+}

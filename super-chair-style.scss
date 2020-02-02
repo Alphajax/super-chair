@@ -1,0 +1,35 @@
+.super-chair{
+  margin-top: 30px;
+  max-height: 450px;
+  .super-chair-img{
+    width: 100%;
+  }
+  .super-chair-attributes-container{
+    margin-left: 16%;
+    .super-chair-heading{
+      position: relative;
+      top: -467+152px;
+      font-family:'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+      color: #FFFFFF;
+    }
+    .super-chair-warning{
+      position: relative;
+      top: -322+50px;
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    .details-button{
+      position: relative;
+      top: -275+50px;
+    }
+  }
+
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,sBAAsB;EACpB,OAAO,EAAE,IAAI;EACb,UAAU,ECHC,OAAO",
+"sources": ["header-style.scss","super-chair-variables.scss"],
+"names": [],
+"file": "header-style.css"
+}

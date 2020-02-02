@@ -1,0 +1,24 @@
+@import "super-chair-variables";
+.header-flex-container{
+  display: flex;
+  background: $chair-gray;
+  height: 50px;
+  justify-content: center;
+  .header-nav-element{
+    padding-top: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-flex-container{
+    flex-direction: column;
+    height: 170px;
+  }
+}

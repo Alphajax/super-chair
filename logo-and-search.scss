@@ -1,0 +1,48 @@
+@import "super-chair-variables";
+.logo-and-search{
+  display: flex;
+  justify-content: center;
+  .logo-name{
+    display: flex;
+    .logo{
+      height: 80px;
+      width: 80px;
+      background: url('images/logo.png') ;
+      margin-top: 20px;
+    }
+    .name{
+      color: $chair-pink;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 0.1em;
+      margin-top: 41px;
+    }
+  }
+  .search-bar{
+    margin-top: 40px;
+    margin-left: 172px;
+    .search{
+      position: relative;
+      left: -234px;
+      top: -10.45px;
+    }
+  }
+  .phone-number{
+    margin-top: 50px;
+    margin-left: 93px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .call-back{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+}
+

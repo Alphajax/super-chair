@@ -1,0 +1,93 @@
+.subscribe-and-our-shops{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  .pink-rectangle{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 28.125%;
+    height: 159px;
+    background: $chair-pink;
+    display: flex;
+  }
+  .subscribe{
+    .get-presents{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      color: #FFFFFF;
+      margin-left: 6%;
+      margin-top: 15px;
+    }
+    .every-month{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 18px;
+      color: #FFFFFF;
+      margin-left: 6%;
+      margin-top: 15px;
+    }
+    .email{
+      background: #FFFFFF;
+      width: 62%;
+      height: 30px;
+      border-radius: 26px;
+      margin-left: 6%;
+      margin-top: 15px;
+      p{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: #C4C4C4;
+        padding-top: 7px;
+        padding-left: 13px;
+      }
+    }
+    .right{
+      img{
+        height: 100px;
+        width: 100px;
+        margin-top: 25px;
+        margin-left: 25px;
+      }
+    }
+  }
+  .our-shops{
+    .left{
+      .welcome{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-top: 15px;
+        margin-left: 6%;
+      }
+      .shop-number{
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-left: 6%;
+        margin-top: 18px;
+      }
+      .our-shops-button{
+        margin-left: 6%;
+        margin-top: 18px;
+      }
+    }
+    .right{
+      margin-top: 25px;
+      margin-left: 25px;
+    }
+  }
+}
